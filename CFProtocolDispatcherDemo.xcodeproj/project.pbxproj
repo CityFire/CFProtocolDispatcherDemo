@@ -15,6 +15,11 @@
 		0441F8A41ED80DD800AE4A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0441F8A21ED80DD800AE4A9B /* LaunchScreen.storyboard */; };
 		0441F8AF1ED80DD800AE4A9B /* CFProtocolDispatcherDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441F8AE1ED80DD800AE4A9B /* CFProtocolDispatcherDemoTests.m */; };
 		0441F8BA1ED80DD800AE4A9B /* CFProtocolDispatcherDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441F8B91ED80DD800AE4A9B /* CFProtocolDispatcherDemoUITests.m */; };
+		0441F8C91ED8101100AE4A9B /* FirstMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441F8C81ED8101100AE4A9B /* FirstMethodViewController.m */; };
+		0441F8CC1ED8102300AE4A9B /* SecondMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441F8CB1ED8102300AE4A9B /* SecondMethodViewController.m */; };
+		0441F8D01ED811B200AE4A9B /* CFProtocolDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441F8CF1ED811B200AE4A9B /* CFProtocolDispatcher.m */; };
+		0441F8D31ED822AD00AE4A9B /* UITableViewDelegateDataSource_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441F8D21ED822AD00AE4A9B /* UITableViewDelegateDataSource_A.m */; };
+		0441F8D61ED822CB00AE4A9B /* UITableViewDelegateDataSource_B.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441F8D51ED822CB00AE4A9B /* UITableViewDelegateDataSource_B.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		0441F8B51ED80DD800AE4A9B /* CFProtocolDispatcherDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFProtocolDispatcherDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0441F8B91ED80DD800AE4A9B /* CFProtocolDispatcherDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFProtocolDispatcherDemoUITests.m; sourceTree = "<group>"; };
 		0441F8BB1ED80DD800AE4A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0441F8C71ED8101100AE4A9B /* FirstMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstMethodViewController.h; sourceTree = "<group>"; };
+		0441F8C81ED8101100AE4A9B /* FirstMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstMethodViewController.m; sourceTree = "<group>"; };
+		0441F8CA1ED8102300AE4A9B /* SecondMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondMethodViewController.h; sourceTree = "<group>"; };
+		0441F8CB1ED8102300AE4A9B /* SecondMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondMethodViewController.m; sourceTree = "<group>"; };
+		0441F8CE1ED811B200AE4A9B /* CFProtocolDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFProtocolDispatcher.h; path = CFProtocolDispatcher/CFProtocolDispatcher.h; sourceTree = "<group>"; };
+		0441F8CF1ED811B200AE4A9B /* CFProtocolDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFProtocolDispatcher.m; path = CFProtocolDispatcher/CFProtocolDispatcher.m; sourceTree = "<group>"; };
+		0441F8D11ED822AD00AE4A9B /* UITableViewDelegateDataSource_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewDelegateDataSource_A.h; sourceTree = "<group>"; };
+		0441F8D21ED822AD00AE4A9B /* UITableViewDelegateDataSource_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewDelegateDataSource_A.m; sourceTree = "<group>"; };
+		0441F8D41ED822CB00AE4A9B /* UITableViewDelegateDataSource_B.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewDelegateDataSource_B.h; sourceTree = "<group>"; };
+		0441F8D51ED822CB00AE4A9B /* UITableViewDelegateDataSource_B.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewDelegateDataSource_B.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +116,19 @@
 		0441F8931ED80DD800AE4A9B /* CFProtocolDispatcherDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0441F8CD1ED8116E00AE4A9B /* CFProtocolDispatcher */,
 				0441F8971ED80DD800AE4A9B /* AppDelegate.h */,
 				0441F8981ED80DD800AE4A9B /* AppDelegate.m */,
+				0441F8C71ED8101100AE4A9B /* FirstMethodViewController.h */,
+				0441F8C81ED8101100AE4A9B /* FirstMethodViewController.m */,
+				0441F8CA1ED8102300AE4A9B /* SecondMethodViewController.h */,
+				0441F8CB1ED8102300AE4A9B /* SecondMethodViewController.m */,
 				0441F89A1ED80DD800AE4A9B /* ViewController.h */,
 				0441F89B1ED80DD800AE4A9B /* ViewController.m */,
+				0441F8D11ED822AD00AE4A9B /* UITableViewDelegateDataSource_A.h */,
+				0441F8D21ED822AD00AE4A9B /* UITableViewDelegateDataSource_A.m */,
+				0441F8D41ED822CB00AE4A9B /* UITableViewDelegateDataSource_B.h */,
+				0441F8D51ED822CB00AE4A9B /* UITableViewDelegateDataSource_B.m */,
 				0441F89D1ED80DD800AE4A9B /* Main.storyboard */,
 				0441F8A01ED80DD800AE4A9B /* Assets.xcassets */,
 				0441F8A21ED80DD800AE4A9B /* LaunchScreen.storyboard */,
@@ -138,6 +162,15 @@
 				0441F8BB1ED80DD800AE4A9B /* Info.plist */,
 			);
 			path = CFProtocolDispatcherDemoUITests;
+			sourceTree = "<group>";
+		};
+		0441F8CD1ED8116E00AE4A9B /* CFProtocolDispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				0441F8CE1ED811B200AE4A9B /* CFProtocolDispatcher.h */,
+				0441F8CF1ED811B200AE4A9B /* CFProtocolDispatcher.m */,
+			);
+			name = CFProtocolDispatcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0441F8CC1ED8102300AE4A9B /* SecondMethodViewController.m in Sources */,
 				0441F89C1ED80DD800AE4A9B /* ViewController.m in Sources */,
 				0441F8991ED80DD800AE4A9B /* AppDelegate.m in Sources */,
+				0441F8D01ED811B200AE4A9B /* CFProtocolDispatcher.m in Sources */,
+				0441F8D61ED822CB00AE4A9B /* UITableViewDelegateDataSource_B.m in Sources */,
+				0441F8C91ED8101100AE4A9B /* FirstMethodViewController.m in Sources */,
 				0441F8961ED80DD800AE4A9B /* main.m in Sources */,
+				0441F8D31ED822AD00AE4A9B /* UITableViewDelegateDataSource_A.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "FirstMethodViewController.h"
+#import "SecondMethodViewController.h"
 
 @interface ViewController ()
 
@@ -19,6 +21,15 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)firstMethod:(id)sender {
+    FirstMethodViewController *firstVC = [FirstMethodViewController new];
+    [self.navigationController pushViewController:firstVC animated:YES];
+}
+
+- (IBAction)secondMethod:(id)sender {
+    SecondMethodViewController *secondVC = [SecondMethodViewController new];
+    [self.navigationController pushViewController:secondVC animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
